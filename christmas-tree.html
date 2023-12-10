@@ -13,15 +13,7 @@
 <body>
   <audio id="myAudio" src="https://nguyentamlong.github.io/christmas-tree/musics/jingle-family-174542.mp4" loop></audio>
 
-  <script>
-    // Truy vấn phần tử audio
-    var audio = document.getElementById("myAudio");
 
-    // Phát âm thanh khi trang web được tải
-    window.addEventListener("load", function() {
-      audio.play();
-    });
-  </script>
   <div class="box">
     <ul>
       <li></li>
@@ -363,5 +355,14 @@
   </div>
 
 </body>
+<script>
+  // Truy vấn phần tử audio
+  var audio = document.getElementById("myAudio");
+
+  // Phát âm thanh khi trang web được tải
+  window.addEventListener("load", function() {
+    audio.play();
+  });
+</script>
 
 </html>
